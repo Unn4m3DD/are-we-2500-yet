@@ -29,10 +29,7 @@ export function Graph({
   bearKiller: GraphInfo;
   unnamedInfo: GraphInfo;
 }>) {
-  const chartData = [
-    bearKiller,
-    //  unnamedInfo
-  ];
+  const chartData = [bearKiller, unnamedInfo];
   const maxPoints = Math.max(bearKiller.points, unnamedInfo.points ?? 0);
   return (
     <div className="flex flex-col h-full w-full items-center p-8 gap-12">
