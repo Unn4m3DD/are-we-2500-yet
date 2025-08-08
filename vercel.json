@@ -1,6 +1,6 @@
 {
   "crons": [
-    { "path": "/api/level/check", "schedule": "*/5 * * * *" }
+    { "path": "/api/level/check", "schedule": "0 11,17 * * *" }
   ]
 }
 
